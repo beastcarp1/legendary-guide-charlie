@@ -1,0 +1,79 @@
+#commonArea {
+  height: 550px; 
+  width: 800px; 
+  background-color: #E0E0E0; 
+  margin: auto;
+  position: relative;
+  border: 2px solid #333;
+}
+
+.couch1{
+  width: 150px;
+  height: 50px;
+  background-color: #A0522D;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+}
+.couch2{
+  width: 50px;
+  height: 150px;
+  background-color: #A0522D;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+}
+
+.couch1 { top: 250px; left: 340px; }
+.couch2 { top: 150px; left: 300px; }
+
+.doorMain, .door2{
+  width: 60px;
+  height: 35px;
+  background-color: #654321;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  position: absolute;
+}
+.door1, .door3{
+  width: 35px;
+  height: 60px;
+  background-color: #654321;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  position: absolute;
+}
+
+.doorMain { bottom: 0px; left: 50%; transform: translateX(-50%); }
+.door1 { top: 200px; left: 0px; }
+.door2 { top: 0px; left: 170px; }
+.door3 { top: 200px; right: 0px; }
+
+.fireEscape {
+  width: 80px;
+  height: 80px;
+  background-color: #D32F2F;
+  color: white;
+  text-align: center;
+  line-height: 80px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-radius: 5px;
+}
+
+.TV{
+  width: 150px;
+  height: 20px;
+  background-color: #222222;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+  position: absolute;
+  top: 0px;
+  right: 320px;
+}
